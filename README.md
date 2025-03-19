@@ -1,2 +1,6 @@
 # Portfolio
-My portfolio of things I tried
+## List of things
+- Rubber Ducky Payloads
+- Wifi Pineapple documentation
+- School projects
+- ...
