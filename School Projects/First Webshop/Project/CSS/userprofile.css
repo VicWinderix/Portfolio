@@ -1,0 +1,96 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Profile Container */
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Profile Header */
+.profile-section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+/* Orders Section */
+.orders-section {
+    margin-top: 20px;
+}
+
+.orders-section h2 {
+    color: #0077b6;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the button container */
+.buttoncontainer {
+    display: flex;
+    justify-content: space-between; /* Space out the buttons */
+    margin-top: 20px;
+}
+
+/* Styling for the log out button */
+.logoutbtn {
+    background-color: #ff4c4c; /* Red color for log out */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.logoutbtn:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+/* Styling for the edit profile button */
+.editbtn {
+    background-color: #00b4d8; /* Blue color for edit */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.editbtn:hover {
+    background-color: #0077b6; /* Darker blue on hover */
+}

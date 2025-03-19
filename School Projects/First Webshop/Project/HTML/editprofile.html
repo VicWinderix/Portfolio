@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - 3D Print Store</title>
+    <link href="../CSS/reset.css" rel="stylesheet" />
+    <link href="../CSS/general.css" rel="stylesheet" />
+    <link href="../CSS/signup.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../HTML/home.html">Home</a></li>
+            <li><a href="../PHP/shop.php">Shop</a></li>
+            <li><a href="#">3D Printer Info</a></li>
+        </ul>
+        <div class="profile">
+            <ul><li><a href="../PHP/userprofile.php">Profile</a></li></ul>
+            <div class="circle cart">
+                <a href="cart.html"><img src="../Pictures/shopping-cart-icon.png" alt="Shopping Cart" class="circle-img"></a>
+            </div>
+        </div>
+    </nav>
+    <section class="signup-section">
+        <div class="form-container">
+            <h2>Create Your Account</h2>
+            <form action="#" method="POST" class="signup-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit" class="cta">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Log in here</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 3D Print Store | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

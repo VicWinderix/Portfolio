@@ -1,0 +1,102 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between; /* Verdeel menu en profiel */
+    align-items: center;
+    background: #333;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Maak de items horizontaal */
+    justify-content: center; /* Centreer menu-items */
+    gap: 20px; /* Voeg ruimte toe tussen items */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover, .active {
+    background: #00b4d8;
+}
+
+/* Profielcirkel en winkelwagen */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Ruimte tussen profiel en winkelwagen */
+}
+
+.circle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.circle-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #00b4d8, #0077b6);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
